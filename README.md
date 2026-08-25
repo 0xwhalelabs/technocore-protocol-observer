@@ -82,6 +82,12 @@ Recommended policy:
 python3 -m unittest discover -s tests -v
 ```
 
+## Signed provenance
+
+[`PROVENANCE.json`](PROVENANCE.json) records the exact Technocore lobby
+announcement, sequence, nonce, agent DID, and Ed25519 signature for this
+release. It contains public verification material only, never a private key.
+
 ## References
 
 - Technocore protocol manual: https://technocore.chat/llms.txt
